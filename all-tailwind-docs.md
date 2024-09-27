@@ -1,3 +1,7 @@
+
+
+# File: ./stroke-width.mdx
+
 ---
 title: "Stroke Width"
 description: "Utilities for styling the stroke width of SVG elements."
@@ -69,6 +73,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="stroke-width" featuredClass="stroke-[2px]" element="svg" />
 
 
+
+
+
+# File: ./columns.mdx
 
 ---
 title: "Columns"
@@ -283,6 +291,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./transition-duration.mdx
+
 ---
 title: "Transition Duration"
 description: "Utilities for controlling the duration of CSS transitions."
@@ -363,6 +375,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="transition-duration" featuredClass="duration-[2000ms]" />
 
 
+
+
+
+# File: ./grid-column.mdx
 
 ---
 title: "Grid Column Start / End"
@@ -518,6 +534,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./backdrop-brightness.mdx
+
 ---
 title: "Backdrop Brightness"
 description: "Utilities for applying backdrop brightness filters to an element."
@@ -631,6 +651,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="backdrop-brightness" featuredClass="backdrop-brightness-[1.75]" />
 
 
+
+
+
+# File: ./scroll-snap-type.mdx
 
 ---
 title: "Scroll Snap Type"
@@ -841,6 +865,10 @@ Use the `snap-proximity` utility to make a snap container come to rest on snap p
 <BreakpointsAndMediaQueries featuredClass="snap-x" />
 
 
+
+
+
+# File: ./configuration.mdx
 
 ---
 title: Configuration
@@ -1434,6 +1462,10 @@ module.exports = {
 
 
 
+
+
+# File: ./pointer-events.mdx
+
 ---
 title: "Pointer Events"
 description: "Utilities for controlling whether an element responds to pointer events."
@@ -1512,6 +1544,10 @@ Use `pointer-events-none` to make an element ignore pointer events. The pointer 
 <BreakpointsAndMediaQueries defaultClass="pointer-events-none" featuredClass="pointer-events-auto" />
 
 
+
+
+
+# File: ./padding.mdx
 
 ---
 title: "Padding"
@@ -1728,6 +1764,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./box-sizing.mdx
+
 ---
 title: "Box Sizing"
 description: "Utilities for controlling how the browser should calculate an element's total size."
@@ -1881,6 +1921,10 @@ This means a 100px &times; 100px element with a 2px border and 4px of padding on
 
 
 
+
+
+# File: ./translate.mdx
+
 ---
 title: "Translate"
 description: "Utilities for translating elements with transform."
@@ -2031,6 +2075,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./divide-style.mdx
+
 ---
 title: "Divide Style"
 description: "Utilities for controlling the border style between elements."
@@ -2084,6 +2132,10 @@ Use the `divide-*` utilities to control the border style between elements.
 <BreakpointsAndMediaQueries defaultClass="divide-y divide-dashed" featuredClass="divide-solid" />
 
 
+
+
+
+# File: ./drop-shadow.mdx
 
 ---
 title: "Drop Shadow"
@@ -2206,6 +2258,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="drop-shadow" featuredClass="drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]" />
 
 
+
+
+
+# File: ./content.mdx
 
 ---
 title: "Content"
@@ -2339,6 +2395,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./outline-width.mdx
+
 ---
 title: "Outline Width"
 description: "Utilities for controlling the width of an element's outline."
@@ -2422,6 +2482,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./transition-delay.mdx
+
 ---
 title: "Transition Delay"
 description: "Utilities for controlling the delay of CSS transitions."
@@ -2502,6 +2566,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="transition-delay" featuredClass="delay-[2000ms]" />
 
 
+
+
+
+# File: ./plugins.mdx
 
 ---
 title: Plugins
@@ -3249,6 +3317,10 @@ addComponents([
 
 
 
+
+
+# File: ./ring-offset-color.mdx
+
 ---
 title: "Ring Offset Color"
 description: "Utilities for setting the color of outline ring offsets."
@@ -3331,6 +3403,10 @@ You can use any value defined in your [opacity scale](/docs/opacity), or use arb
 <ArbitraryValues name="ring offset color" featuredClass="ring-offset-[#50d71e]" />
 
 
+
+
+
+# File: ./user-select.mdx
 
 ---
 title: "User Select"
@@ -3431,6 +3507,10 @@ Use `select-auto` to use the default browser behavior for selecting text. Useful
 <BreakpointsAndMediaQueries featuredClass="select-all" />
 
 
+
+
+
+# File: ./flex-basis.mdx
 
 ---
 title: "Flex Basis"
@@ -3537,6 +3617,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="flex-basis" featuredClass="basis-[14.2857143%]" />
 
 
+
+
+
+# File: ./hue-rotate.mdx
 
 ---
 title: "Hue Rotate"
@@ -3668,6 +3752,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="hue-rotate" featuredClass="hue-rotate-[270deg]" />
 
 
+
+
+
+# File: ./theme.mdx
 
 ---
 title: Theme Configuration
@@ -4088,6 +4176,10 @@ All of these keys are also available under the `theme.extend` key to enable [ext
 
 
 
+
+
+# File: ./caret-color.mdx
+
 ---
 title: "Caret Color"
 description: "Utilities for controlling the color of the text input cursor."
@@ -4160,6 +4252,10 @@ Use the `caret-*` utilities to change the color of the text input cursor.
 </ArbitraryValues>
 
 
+
+
+
+# File: ./grid-row.mdx
 
 ---
 title: "Grid Row Start / End"
@@ -4303,6 +4399,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./transform-origin.mdx
+
 ---
 title: "Transform Origin"
 description: "Utilities for specifying the origin for an element's transformations."
@@ -4410,6 +4510,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./background-image.mdx
+
 ---
 title: "Background Image"
 description: "Utilities for controlling an element's background image."
@@ -4488,6 +4592,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="background-image" featuredClass="bg-[url('/img/hero-pattern.svg')]" />
 
 
+
+
+
+# File: ./justify-content.mdx
 
 ---
 title: "Justify Content"
@@ -4676,6 +4784,10 @@ Use `justify-normal` to pack content items in their default position as if no `j
 
 
 
+
+
+# File: ./transition-timing-function.mdx
+
 ---
 title: "Transition Timing Function"
 description: "Utilities for controlling the easing of CSS transitions."
@@ -4757,6 +4869,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="transition-timing-function" featuredClass="ease-[cubic-bezier(0.95,0.05,0.795,0.035)]" />
 
 
+
+
+
+# File: ./animation.mdx
 
 ---
 title: "Animation"
@@ -5068,6 +5184,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./grayscale.mdx
+
 ---
 title: "Grayscale"
 description: "Utilities for applying grayscale filters to an element."
@@ -5168,6 +5288,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./grid-auto-rows.mdx
+
 ---
 title: "Grid Auto Rows"
 description: "Utilities for controlling the size of implicitly-created grid rows."
@@ -5233,6 +5357,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="grid-auto-rows" defaultClass="grid grid-flow-row" featuredClass="auto-rows-[minmax(0,_2fr)]" />
 
 
+
+
+
+# File: ./box-decoration-break.mdx
 
 ---
 title: "Box Decoration Break"
@@ -5303,6 +5431,10 @@ Use the `box-decoration-slice` and `box-decoration-clone` utilities to control w
 <BreakpointsAndMediaQueries defaultClass="box-decoration-clone" featuredClass="box-decoration-slice" />
 
 
+
+
+
+# File: ./visibility.mdx
 
 ---
 title: "Visibility"
@@ -5491,6 +5623,10 @@ Use the `visible` utility to make an element visible. This is mostly useful for 
 <BreakpointsAndMediaQueries defaultClass="visible" featuredClass="invisible" />
 
 
+
+
+
+# File: ./max-width.mdx
 
 ---
 title: "Max-Width"
@@ -5708,6 +5844,10 @@ Note that values defined in `theme.maxWidth` take precedence over values defined
 
 
 
+
+
+# File: ./rotate.mdx
+
 ---
 title: "Rotate"
 description: "Utilities for rotating elements with transform."
@@ -5853,6 +5993,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./grid-template-columns.mdx
+
 ---
 title: "Grid Template Columns"
 description: "Utilities for specifying the columns in a grid layout."
@@ -5968,6 +6112,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="grid-template-columns" defaultClass="grid" featuredClass="grid-cols-[200px_minmax(900px,_1fr)_100px]" />
 
 
+
+
+
+# File: ./blur.mdx
 
 ---
 title: "Blur"
@@ -6089,6 +6237,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="blur" featuredClass="blur-[2px]" />
 
 
+
+
+
+# File: ./max-height.mdx
 
 ---
 title: "Max-Height"
@@ -6233,6 +6385,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="max-height" featuredClass="max-h-[220px]" />
 
 
+
+
+
+# File: ./upgrade-guide.mdx
 
 ---
 title: "Upgrade Guide"
@@ -6708,6 +6864,10 @@ I think you are more likely to be attacked by a shark while working at your desk
 
 
 
+
+
+# File: ./scroll-snap-stop.mdx
+
 ---
 title: "Scroll Snap Stop"
 description: "Utilities for controlling whether you can skip past possible snap positions."
@@ -6860,6 +7020,10 @@ Use the `snap-normal` utility to allow a snap container to skip past possible sc
 
 
 
+
+
+# File: ./ring-width.mdx
+
 ---
 title: "Ring Width"
 description: "Utilities for creating outline rings with box-shadows."
@@ -7005,6 +7169,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./touch-action.mdx
+
 ---
 title: "Touch Action"
 description: "Utilities for controlling how an element can be scrolled and zoomed on touchscreens."
@@ -7092,6 +7260,10 @@ Use the `touch-*` utilities to control how an element can be scrolled (panned) a
 <BreakpointsAndMediaQueries featuredClass="touch-pan-x" />
 
 
+
+
+
+# File: ./table-layout.mdx
 
 ---
 title: "Table Layout"
@@ -7250,6 +7422,10 @@ You can manually set the widths for some columns and the rest of the available w
 
 
 
+
+
+# File: ./border-collapse.mdx
+
 ---
 title: "Border Collapse"
 description: "Utilities for controlling whether table borders should collapse or be separated."
@@ -7389,6 +7565,10 @@ Use `border-separate` to force each cell to display its own separate borders.
 
 
 
+
+
+# File: ./box-shadow.mdx
+
 ---
 title: "Box Shadow"
 description: "Utilities for controlling the box shadow of an element."
@@ -7520,6 +7700,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./box-shadow-color.mdx
+
 ---
 title: "Box Shadow Color"
 description: "Utilities for controlling the color of a box shadow."
@@ -7633,6 +7817,10 @@ It's necessary for Tailwind to work this way, as otherwise there would be no way
 <ArbitraryValues property="box-shadow" featuredClass="shadow-[#50d71e]" element="button" />
 
 
+
+
+
+# File: ./clear.mdx
 
 ---
 title: "Clear"
@@ -7811,6 +7999,10 @@ Use the `clear-start` or `clear-end` [logical properties](https://developer.mozi
 
 
 
+
+
+# File: ./font-smoothing.mdx
+
 ---
 title: "Font Smoothing"
 description: "Utilities for controlling the font smoothing of an element."
@@ -7863,6 +8055,10 @@ Use the `subpixel-antialiased` utility to render text using subpixel antialiasin
 <BreakpointsAndMediaQueries defaultClass="antialiased" featuredClass="subpixel-antialiased" element="p" />
 
 
+
+
+
+# File: ./backdrop-grayscale.mdx
 
 ---
 title: "Backdrop Grayscale"
@@ -7966,6 +8162,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./screen-readers.mdx
+
 ---
 title: "Screen Readers"
 description: "Utilities for improving accessibility with screen readers."
@@ -8022,6 +8222,10 @@ Use `not-sr-only` to undo `sr-only`, making an element visible to sighted users 
 <BreakpointsAndMediaQueries defaultClass="sr-only" featuredClass="not-sr-only" />
 
 
+
+
+
+# File: ./flex.mdx
 
 ---
 title: "Flex"
@@ -8193,6 +8397,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./float.mdx
+
 ---
 title: "Floats"
 description: "Utilities for controlling the wrapping of content around an element."
@@ -8333,6 +8541,10 @@ Use the `float-start` or `float-end` utilities, which use [logical properties](h
 
 
 
+
+
+# File: ./flex-shrink.mdx
+
 ---
 title: "Flex Shrink"
 description: "Utilities for controlling how flex items shrink."
@@ -8454,6 +8666,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="flex-shrink" featuredClass="shrink-[2]" />
 
 
+
+
+
+# File: ./skew.mdx
 
 ---
 title: "Skew"
@@ -8604,6 +8820,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./contrast.mdx
+
 ---
 title: "Contrast"
 description: "Utilities for applying contrast filters to an element."
@@ -8724,6 +8944,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./backdrop-contrast.mdx
+
 ---
 title: "Backdrop Contrast"
 description: "Utilities for applying backdrop contrast filters to an element."
@@ -8837,6 +9061,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./text-align.mdx
+
 ---
 title: "Text Align"
 shortTitle: Text Align
@@ -8924,6 +9152,10 @@ Use the `text-left`, `text-center`, `text-right`, and `text-justify` utilities t
 <BreakpointsAndMediaQueries defaultClass="text-left" featuredClass="text-center" element="p" />
 
 
+
+
+
+# File: ./font-size.mdx
 
 ---
 title: "Font Size"
@@ -9109,6 +9341,10 @@ module.exports = {
 
 
 
+
+
+# File: ./flex-wrap.mdx
+
 ---
 title: "Flex Wrap"
 description: "Utilities for controlling how flex items wrap."
@@ -9201,6 +9437,10 @@ Use `flex-wrap-reverse` to wrap flex items in the reverse direction:
 <BreakpointsAndMediaQueries defaultClass="flex flex-wrap" featuredClass="flex-wrap-reverse" />
 
 
+
+
+
+# File: ./font-weight.mdx
 
 ---
 title: "Font Weight"
@@ -9310,6 +9550,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="font-weight" featuredClass="font-[1100]" element="p" />
 
 
+
+
+
+# File: ./functions-and-directives.mdx
 
 ---
 title: Functions & Directives
@@ -9649,6 +9893,10 @@ This will resolve to the underlying screen value at build-time, generating a reg
 
 
 
+
+
+# File: ./align-self.mdx
+
 ---
 title: "Align Self"
 description: "Utilities for controlling how an individual flex or grid item is positioned along its container's cross axis."
@@ -9786,6 +10034,10 @@ Use `self-stretch` to stretch an item to fill the container's cross axis, despit
 
 
 
+
+
+# File: ./screens.mdx
+
 ---
 title: Customizing Screens
 shortTitle: Screens
@@ -9922,6 +10174,10 @@ Your responsive modifiers will reflect these custom screen names, so using them 
 
 
 
+
+
+# File: ./list-style-type.mdx
+
 ---
 title: "List Style Type"
 description: "Utilities for controlling the bullet/number style of a list."
@@ -10028,6 +10284,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./isolation.mdx
+
 ---
 title: "Isolation"
 description: "Utilities for controlling whether an element should explicitly create a new stacking context."
@@ -10064,6 +10324,10 @@ Use the `isolate` and `isolation-auto` utilities to control whether an element s
 <BreakpointsAndMediaQueries defaultClass="isolate" featuredClass="isolation-auto" />
 
 
+
+
+
+# File: ./background-position.mdx
 
 ---
 title: "Background Position"
@@ -10225,6 +10489,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./order.mdx
+
 ---
 title: "Order"
 description: "Utilities for controlling the order of flex and grid items."
@@ -10308,6 +10576,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="order" featuredClass="order-[13]" />
 
 
+
+
+
+# File: ./aspect-ratio.mdx
 
 ---
 title: "Aspect Ratio"
@@ -10398,6 +10670,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 </ArbitraryValues>
 
 
+
+
+
+# File: ./position.mdx
 
 ---
 title: "Position"
@@ -10705,6 +10981,10 @@ Any [offsets](/docs/top-right-bottom-left) are calculated relative to the elemen
 
 
 
+
+
+# File: ./break-after.mdx
+
 ---
 title: "Break After"
 description: "Utilities for controlling how a column or page should break after an element."
@@ -10744,6 +11024,10 @@ Use the `break-after-*` utilities to control how a column or page break should b
 <BreakpointsAndMediaQueries featuredClass="break-after-column" />
 
 
+
+
+
+# File: ./border-width.mdx
 
 ---
 title: "Border Width"
@@ -10955,6 +11239,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./space.mdx
+
 ---
 title: "Space Between"
 description: "Utilities for controlling the space between child elements."
@@ -11144,6 +11432,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./stroke.mdx
+
 ---
 title: "Stroke"
 description: "Utilities for styling the stroke of SVG elements."
@@ -11204,6 +11496,10 @@ This can be useful for styling icon sets like [Heroicons](https://heroicons.com)
 <ArbitraryValues property="stroke" featuredClass="stroke-[#243c5a]" element="svg" />
 
 
+
+
+
+# File: ./width.mdx
 
 ---
 title: "Width"
@@ -11389,6 +11685,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./flex-direction.mdx
+
 ---
 title: "Flex Direction"
 description: "Utilities for controlling the direction of flex items."
@@ -11495,6 +11795,10 @@ Use `flex-col-reverse` to position flex items vertically in the opposite directi
 <BreakpointsAndMediaQueries defaultClass="flex flex-col" featuredClass="flex-row" />
 
 
+
+
+
+# File: ./divide-color.mdx
 
 ---
 title: "Divide Color"
@@ -11611,6 +11915,10 @@ You can use any value defined in your [opacity scale](/docs/opacity), or use arb
 <ArbitraryValues name="divide color" featuredClass="divide-[#243c5a]" />
 
 
+
+
+
+# File: ./size.mdx
 
 ---
 title: "Size"
@@ -11735,6 +12043,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="size" featuredClass="size-[32rem]" />
 
 
+
+
+
+# File: ./justify-items.mdx
 
 ---
 title: "Justify Items"
@@ -11903,6 +12215,10 @@ Use `justify-items-stretch` to stretch items along their inline axis:
 
 
 
+
+
+# File: ./sepia.mdx
+
 ---
 title: "Sepia"
 description: "Utilities for applying sepia filters to an element."
@@ -12003,6 +12319,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="sepia" featuredClass="sepia-[.25]" />
 
 
+
+
+
+# File: ./object-position.mdx
 
 ---
 title: "Object Position"
@@ -12162,6 +12482,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./transition-property.mdx
+
 ---
 title: "Transition Property"
 description: "Utilities for controlling which CSS properties transition."
@@ -12244,6 +12568,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="transition-property" featuredClass="transition-[height]" />
 
 
+
+
+
+# File: ./overflow.mdx
 
 ---
 title: "Overflow"
@@ -12701,6 +13029,10 @@ Use the `overflow-scroll` utility to add scrollbars to an element. Unlike `overf
 
 
 
+
+
+# File: ./container.mdx
+
 ---
 title: "Container"
 description: "A component for fixing an element's width to the current breakpoint."
@@ -12853,6 +13185,10 @@ module.exports = {
 
 
 
+
+
+# File: ./align-items.mdx
+
 ---
 title: "Align Items"
 description: "Utilities for controlling how flex and grid items are positioned along a container's cross axis."
@@ -12989,6 +13325,10 @@ Use `items-baseline` to align items along the container's cross axis such that a
 <BreakpointsAndMediaQueries defaultClass="flex items-stretch" featuredClass="items-center" />
 
 
+
+
+
+# File: ./using-with-preprocessors.mdx
 
 ---
 title: Using with Preprocessors
@@ -13353,6 +13693,10 @@ Technically this results in an extra set of parentheses around your media query,
 
 
 
+
+
+# File: ./installation/play-cdn.js
+
 import NextLink from 'next/link'
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { InstallationLayout } from '@/layouts/InstallationLayout'
@@ -13524,6 +13868,10 @@ PlayCdn.layoutProps = {
 
 
 
+
+
+# File: ./installation/using-postcss.js
+
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { InstallationLayout } from '@/layouts/InstallationLayout'
 import { Cta } from '@/components/Cta'
@@ -13694,6 +14042,10 @@ UsingPostCss.layoutProps = {
 }
 
 
+
+
+
+# File: ./installation/framework-guides.js
 
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { InstallationLayout } from '@/layouts/InstallationLayout'
@@ -13931,6 +14283,10 @@ FrameworkGuides.layoutProps = {
 
 
 
+
+
+# File: ./installation/index.js
+
 import { Steps } from '@/components/Steps'
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { InstallationLayout } from '@/layouts/InstallationLayout'
@@ -14078,6 +14434,10 @@ TailwindCli.layoutProps = {
 
 
 
+
+
+# File: ./forced-color-adjust.mdx
+
 ---
 title: "Forced Color Adjust"
 description: "Utilities for opting in and out of forced colors."
@@ -14198,6 +14558,10 @@ This can be useful if you use a different control on a larger screen size for ex
 <BreakpointsAndMediaQueries defaultClass="forced-color-adjust-none" featuredClass="forced-color-adjust-auto" />
 
 
+
+
+
+# File: ./place-self.mdx
 
 ---
 title: "Place Self"
@@ -14362,6 +14726,10 @@ Use `place-self-stretch` to stretch an item on both axes:
 
 
 
+
+
+# File: ./cursor.mdx
+
 ---
 title: "Cursor"
 description: "Utilities for controlling the cursor style when hovering over an element."
@@ -14458,6 +14826,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="cursor" featuredClass={'cursor-' + '[url(hand.cur),_pointer]'} />
 
 
+
+
+
+# File: ./backdrop-sepia.mdx
 
 ---
 title: "Backdrop Sepia"
@@ -14561,6 +14933,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="backdrop-sepia" featuredClass="backdrop-sepia-[.25]" />
 
 
+
+
+
+# File: ./background-color.mdx
 
 ---
 title: "Background Color"
@@ -14695,6 +15071,10 @@ You can use any value defined in your [opacity scale](/docs/opacity), or use arb
 
 
 
+
+
+# File: ./grid-auto-flow.mdx
+
 ---
 title: "Grid Auto Flow"
 description: "Utilities for controlling how elements in a grid are auto-placed."
@@ -14745,6 +15125,10 @@ Use the `grid-flow-*` utilities to control how the auto-placement algorithm work
 <BreakpointsAndMediaQueries defaultClass="grid grid-flow-col" featuredClass="grid-flow-row" />
 
 
+
+
+
+# File: ./backdrop-blur.mdx
 
 ---
 title: "Backdrop Blur"
@@ -14859,6 +15243,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="backdrop-blur" featuredClass="backdrop-blur-[2px]" />
 
 
+
+
+
+# File: ./adding-new-utilities.mdx
 
 ---
 title: Adding New Utilities
@@ -15053,6 +15441,10 @@ This can be a good choice if you want to publish your custom utilities as a libr
 Learn more in the [utility plugin documentation](/docs/plugins#adding-utilities).
 
 
+
+
+
+# File: ./utility-first.mdx
 
 ---
 title: Utility-First Fundamentals
@@ -15253,6 +15645,10 @@ For even more, check out [The Case for Atomic/Utility-First CSS](https://johnpol
 
 
 
+
+
+# File: ./place-items.mdx
+
 ---
 title: "Place Items"
 description: "Utilities for controlling how items are justified and aligned at the same time."
@@ -15440,6 +15836,10 @@ Use `place-items-stretch` to stretch items along their grid areas on both axes:
 
 
 
+
+
+# File: ./list-style-image.mdx
+
 ---
 title: "List Style Image"
 description: "Utilities for controlling the marker images for list items."
@@ -15525,6 +15925,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./outline-offset.mdx
+
 ---
 title: "Outline Offset"
 description: "Utilities for controlling the offset of an element's outline."
@@ -15605,6 +16009,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="outline-offset" featuredClass="outline-offset-[3px]" element="button" />
 
 
+
+
+
+# File: ./customizing-spacing.mdx
 
 ---
 title: Customizing Spacing
@@ -15689,6 +16097,10 @@ By default, Tailwind includes a generous and comprehensive numeric spacing scale
 <SpacingScale />
 
 
+
+
+
+# File: ./adding-custom-styles.mdx
 
 ---
 title: Adding Custom Styles
@@ -16260,6 +16672,10 @@ Learn more about writing your own plugins in the [Plugins](/docs/plugins) docume
 
 
 
+
+
+# File: ./scale.mdx
+
 ---
 title: "Scale"
 description: "Utilities for scaling elements with transform."
@@ -16396,6 +16812,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./grid-auto-columns.mdx
+
 ---
 title: "Grid Auto Columns"
 description: "Utilities for controlling the size of implicitly-created grid columns."
@@ -16461,6 +16881,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="grid-auto-columns" defaultClass="grid grid-flow-col" featuredClass="auto-cols-[minmax(0,_2fr)]" />
 
 
+
+
+
+# File: ./backdrop-opacity.mdx
 
 ---
 title: "Backdrop Opacity"
@@ -16574,6 +16998,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="backdrop-opacity" featuredClass="backdrop-opacity-[.15]" />
 
 
+
+
+
+# File: ./line-height.mdx
 
 ---
 title: "Line Height"
@@ -16718,6 +17146,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./text-overflow.mdx
+
 ---
 title: "Text Overflow"
 description: "Utilities for controlling text overflow in an element."
@@ -16808,6 +17240,10 @@ Use `text-clip` to truncate the text at the limit of the content area.
 
 
 
+
+
+# File: ./mix-blend-mode.mdx
+
 ---
 title: "Mix Blend Mode"
 description: "Utilities for controlling how an element should blend with the background."
@@ -16852,6 +17288,10 @@ Use the `mix-blend-*` utilities to control how an element's content should be bl
 <BreakpointsAndMediaQueries defaultClass="mix-blend-multiply" featuredClass="mix-blend-overlay" />
 
 
+
+
+
+# File: ./saturate.mdx
 
 ---
 title: "Saturate"
@@ -16974,6 +17414,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./background-clip.mdx
+
 ---
 title: "Background Clip"
 description: "Utilities for controlling the bounding box of an element's background."
@@ -17047,6 +17491,10 @@ Use `bg-clip-text` to crop an element's background to match the shape of the tex
 <BreakpointsAndMediaQueries defaultClass="bg-clip-border" featuredClass="bg-clip-padding" />
 
 
+
+
+
+# File: ./invert.mdx
 
 ---
 title: "Invert"
@@ -17150,6 +17598,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./hyphens.mdx
+
 ---
 title: "Hyphens"
 description: "Utilities for controlling how words should be hyphenated."
@@ -17230,6 +17682,10 @@ Use `hyphens-auto` to allow the browser to automatically choose hyphenation poin
 <BreakpointsAndMediaQueries defaultClass="hyphens-none" featuredClass="hyphens-auto" element="p" />
 
 
+
+
+
+# File: ./opacity.mdx
 
 ---
 title: "Opacity"
@@ -17316,6 +17772,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="opacity" featuredClass="opacity-[.67]" />
 
 
+
+
+
+# File: ./vertical-align.mdx
 
 ---
 title: "Vertical Align"
@@ -17473,6 +17933,10 @@ Use `align-text-bottom` to align the bottom of an element with the bottom of the
 <ArbitraryValues property="vertical-align" featuredClass="align-[4px]" hasTheme={false} />
 
 
+
+
+
+# File: ./font-variant-numeric.mdx
 
 ---
 title: "Font Variant Numeric"
@@ -17655,6 +18119,10 @@ Use the `normal-nums` property to reset numeric font variants. This is usually u
 <BreakpointsAndMediaQueries defaultClass="proportional-nums" featuredClass="tabular-nums" element="p" />
 
 
+
+
+
+# File: ./preflight.mdx
 
 ---
 title: Preflight
@@ -17898,6 +18366,10 @@ If you'd like to completely disable Preflight — perhaps because you're integra
 ```
 
 
+
+
+
+# File: ./customizing-colors.mdx
 
 ---
 title: Customizing Colors
@@ -18320,6 +18792,10 @@ When defining your colors this way, make sure that the format of your CSS variab
 
 
 
+
+
+# File: ./outline-color.mdx
+
 ---
 title: "Outline Color"
 description: "Utilities for controlling the color of an element's outline."
@@ -18411,6 +18887,10 @@ You can use any value defined in your [opacity scale](/docs/opacity), or use arb
 
 
 
+
+
+# File: ./text-transform.mdx
+
 ---
 title: "Text Transform"
 description: "Utilities for controlling the transformation of text."
@@ -18477,6 +18957,10 @@ The `uppercase` and `lowercase` will uppercase and lowercase text respectively, 
 <BreakpointsAndMediaQueries defaultClass="capitalize" featuredClass="uppercase" element="p" />
 
 
+
+
+
+# File: ./appearance.mdx
 
 ---
 title: "Appearance"
@@ -18609,6 +19093,10 @@ Use `appearance-auto` to restore the default browser specific styling on an elem
 
 
 
+
+
+# File: ./text-decoration-color.mdx
+
 ---
 title: "Text Decoration Color"
 description: "Utilities for controlling the color of text decorations."
@@ -18697,6 +19185,10 @@ You can use any value defined in your [opacity scale](/docs/opacity), or use arb
 <ArbitraryValues property="text-decoration-color" featuredClass="decoration-[#50d71e]" element="p" />
 
 
+
+
+
+# File: ./border-spacing.mdx
 
 ---
 title: "Border Spacing"
@@ -18833,6 +19325,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./border-style.mdx
+
 ---
 title: "Border Style"
 description: "Utilities for controlling the style of an element's borders."
@@ -18908,6 +19404,10 @@ This is most commonly used to remove a border style that was applied at a smalle
 
 
 
+
+
+# File: ./break-before.mdx
+
 ---
 title: "Break Before"
 description: "Utilities for controlling how a column or page should break before an element."
@@ -18947,6 +19447,10 @@ Use the `break-before-*` utilities to control how a column or page break should 
 <BreakpointsAndMediaQueries featuredClass="break-before-column" />
 
 
+
+
+
+# File: ./font-family.mdx
 
 ---
 title: "Font Family"
@@ -19136,6 +19640,10 @@ This is the best approach if you have customized your font family utilities to h
 
 
 
+
+
+# File: ./text-indent.mdx
+
 ---
 title: "Text Indent"
 description: "Utilities for controlling the amount of empty space shown before text in a block."
@@ -19243,6 +19751,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="text-indent" featuredClass="indent-[50%]" />
 
 
+
+
+
+# File: ./ring-offset-width.mdx
 
 ---
 title: "Ring Offset Width"
@@ -19358,6 +19870,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./list-style-position.mdx
+
 ---
 title: "List Style Position"
 description: "Utilities for controlling the position of bullets/numbers in lists."
@@ -19423,6 +19939,10 @@ Use the `list-inside` and `list-outside` utilities to control the position of th
 <BreakpointsAndMediaQueries defaultClass="list-outside" featuredClass="list-inside" element="ul" />
 
 
+
+
+
+# File: ./responsive-design.mdx
 
 ---
 title: Responsive Design
@@ -19596,6 +20116,10 @@ Learn more about arbitrary value support in the [arbitrary values](/docs/adding-
 
 
 
+
+
+# File: ./guides/remix.js
+
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { FrameworkGuideLayout } from '@/layouts/FrameworkGuideLayout'
 import { Steps } from '@/components/Steps'
@@ -19745,6 +20269,10 @@ UsingRemix.layoutProps = {
 }
 
 
+
+
+
+# File: ./guides/emberjs.js
 
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { FrameworkGuideLayout } from '@/layouts/FrameworkGuideLayout'
@@ -19960,6 +20488,10 @@ UsingEmberJs.layoutProps = {
 
 
 
+
+
+# File: ./guides/create-react-app.js
+
 import Link from 'next/link'
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { FrameworkGuideLayout } from '@/layouts/FrameworkGuideLayout'
@@ -20151,6 +20683,10 @@ UsingCRA.layoutProps = {
 
 
 
+
+
+# File: ./guides/qwik.js
+
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { FrameworkGuideLayout } from '@/layouts/FrameworkGuideLayout'
 import { Steps } from '@/components/Steps'
@@ -20282,6 +20818,10 @@ UsingQwik.layoutProps = {
 }
 
 
+
+
+
+# File: ./guides/ruby-on-rails.js
 
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { FrameworkGuideLayout } from '@/layouts/FrameworkGuideLayout'
@@ -20425,6 +20965,10 @@ UsingRails.layoutProps = {
 }
 
 
+
+
+
+# File: ./guides/sveltekit.js
 
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { FrameworkGuideLayout } from '@/layouts/FrameworkGuideLayout'
@@ -20611,6 +21155,10 @@ UsingSvelteKit.layoutProps = {
 
 
 
+
+
+# File: ./guides/adonisjs.js
+
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { FrameworkGuideLayout } from '@/layouts/FrameworkGuideLayout'
 import { Steps } from '@/components/Steps'
@@ -20760,6 +21308,10 @@ UsingAdonis.layoutProps = {
 
 
 
+
+
+# File: ./guides/angular.js
+
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { FrameworkGuideLayout } from '@/layouts/FrameworkGuideLayout'
 import { Steps } from '@/components/Steps'
@@ -20887,6 +21439,10 @@ UsingAngular.layoutProps = {
 }
 
 
+
+
+
+# File: ./guides/phoenix.js
 
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { FrameworkGuideLayout } from '@/layouts/FrameworkGuideLayout'
@@ -21112,6 +21668,10 @@ UsingPhoenix.layoutProps = {
 }
 
 
+
+
+
+# File: ./guides/rspack.js
 
 import { useRouteHash } from '@/hooks/useRouteHash'
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
@@ -21421,6 +21981,10 @@ UsingRspack.layoutProps = {
 
 
 
+
+
+# File: ./guides/laravel.js
+
 import { useRouteHash } from '@/hooks/useRouteHash'
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { FrameworkGuideLayout } from '@/layouts/FrameworkGuideLayout'
@@ -21704,6 +22268,10 @@ UsingLaravel.layoutProps = {
 
 
 
+
+
+# File: ./guides/meteor.js
+
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { FrameworkGuideLayout } from '@/layouts/FrameworkGuideLayout'
 import { Steps } from '@/components/Steps'
@@ -21834,6 +22402,10 @@ UsingMeteor.layoutProps = {
 }
 
 
+
+
+
+# File: ./guides/nextjs.js
 
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { FrameworkGuideLayout } from '@/layouts/FrameworkGuideLayout'
@@ -21972,6 +22544,10 @@ UsingNextJs.layoutProps = {
 }
 
 
+
+
+
+# File: ./guides/vite.js
 
 import { useRouteHash } from '@/hooks/useRouteHash'
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
@@ -22324,6 +22900,10 @@ UsingVite.layoutProps = {
 
 
 
+
+
+# File: ./guides/symfony.js
+
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { FrameworkGuideLayout } from '@/layouts/FrameworkGuideLayout'
 import { Steps } from '@/components/Steps'
@@ -22504,6 +23084,10 @@ UsingSymfony.layoutProps = {
 
 
 
+
+
+# File: ./guides/parcel.js
+
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { FrameworkGuideLayout } from '@/layouts/FrameworkGuideLayout'
 import { Steps } from '@/components/Steps'
@@ -22665,6 +23249,10 @@ UsingParcel.layoutProps = {
 }
 
 
+
+
+
+# File: ./guides/gatsby.js
 
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { FrameworkGuideLayout } from '@/layouts/FrameworkGuideLayout'
@@ -22842,6 +23430,10 @@ UsingGatsby.layoutProps = {
 }
 
 
+
+
+
+# File: ./guides/nuxtjs.js
 
 import { useRouteHash } from '@/hooks/useRouteHash'
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
@@ -23111,6 +23703,10 @@ UsingNuxtJs.layoutProps = {
 
 
 
+
+
+# File: ./guides/solidjs.js
+
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { FrameworkGuideLayout } from '@/layouts/FrameworkGuideLayout'
 import { Steps } from '@/components/Steps'
@@ -23244,6 +23840,10 @@ UsingSolidJS.layoutProps = {
 
 
 
+
+
+# File: ./guides/astro.js
+
 import { DocumentationLayout } from '@/layouts/DocumentationLayout'
 import { FrameworkGuideLayout } from '@/layouts/FrameworkGuideLayout'
 import { Steps } from '@/components/Steps'
@@ -23340,6 +23940,10 @@ UsingAstro.layoutProps = {
 
 
 
+
+
+# File: ./text-decoration-thickness.mdx
+
 ---
 title: "Text Decoration Thickness"
 description: "Utilities for controlling the thickness of text decorations."
@@ -23424,6 +24028,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="text-decoration-thickness" featuredClass="decoration-[3px]" element="p" />
 
 
+
+
+
+# File: ./z-index.mdx
 
 ---
 title: "Z-Index"
@@ -23511,6 +24119,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./will-change.mdx
+
 ---
 title: "Will Change"
 description: "Utilities for optimizing upcoming animations of elements that are expected to change."
@@ -23578,6 +24190,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="will-change" featuredClass="will-change-[top,left]" />
 
 
+
+
+
+# File: ./min-height.mdx
 
 ---
 title: "Min-Height"
@@ -23704,6 +24320,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./editor-setup.mdx
+
 ---
 title: Editor Setup
 description: Plugins and configuration settings that can improve the developer experience when working with Tailwind CSS.
@@ -23758,6 +24378,10 @@ JetBrains IDEs like WebStorm, PhpStorm, and others include support for intellige
 
 
 
+
+
+# File: ./scroll-behavior.mdx
+
 ---
 title: "Scroll Behavior"
 description: "Utilities for controlling the scroll behavior of an element."
@@ -23796,6 +24420,10 @@ Use the `scroll-smooth` utility to enable smooth scrolling within an element.
 <BreakpointsAndMediaQueries defaultClass="scroll-smooth" featuredClass="scroll-auto" element="html" />
 
 
+
+
+
+# File: ./scroll-snap-align.mdx
 
 ---
 title: "Scroll Snap Align"
@@ -24007,6 +24635,10 @@ Use the `snap-end` utility to snap an element to its end when being scrolled ins
 
 
 
+
+
+# File: ./grid-template-rows.mdx
+
 ---
 title: "Grid Template Rows"
 description: "Utilities for specifying the rows in a grid layout."
@@ -24130,6 +24762,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./ring-color.mdx
+
 ---
 title: "Ring Color"
 description: "Utilities for setting the color of outline rings."
@@ -24216,6 +24852,10 @@ You can use any value defined in your [opacity scale](/docs/opacity), or use arb
 
 
 
+
+
+# File: ./resize.mdx
+
 ---
 title: "Resize"
 description: "Utilities for controlling how an element can be resized."
@@ -24299,6 +24939,10 @@ Use `resize-none` to prevent an element from being resizable.
 <BreakpointsAndMediaQueries defaultClass="resize-none" featuredClass="resize" />
 
 
+
+
+
+# File: ./text-color.mdx
 
 ---
 title: "Text Color"
@@ -24413,6 +25057,10 @@ You can use any value defined in your [opacity scale](/docs/opacity), or use arb
 
 
 
+
+
+# File: ./break-inside.mdx
+
 ---
 title: "Break Inside"
 description: "Utilities for controlling how a column or page should break within an element."
@@ -24452,6 +25100,10 @@ Use the `break-inside-*` utilities to control how a column or page break should 
 <BreakpointsAndMediaQueries featuredClass="break-inside-avoid-column" />
 
 
+
+
+
+# File: ./justify-self.mdx
 
 ---
 title: "Justify Self"
@@ -24628,6 +25280,10 @@ Use `justify-self-stretch` to stretch a grid item to fill the grid area on its i
 
 
 
+
+
+# File: ./whitespace.mdx
+
 ---
 title: "Whitespace"
 description: "Utilities for controlling an element's white-space property."
@@ -24794,6 +25450,10 @@ You will never know.</div>
 <BreakpointsAndMediaQueries defaultClass="whitespace-normal" featuredClass="whitespace-pre" />
 
 
+
+
+
+# File: ./margin.mdx
 
 ---
 title: "Margin"
@@ -25012,6 +25672,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./background-size.mdx
+
 ---
 title: "Background Size"
 description: "Utilities for controlling the background size of an element's background image."
@@ -25115,6 +25779,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="background-size" featuredClass="bg-[length:200px_100px]" />
 
 
+
+
+
+# File: ./letter-spacing.mdx
 
 ---
 title: "Letter Spacing"
@@ -25236,6 +25904,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="letter-spacing" featuredClass="tracking-[.25em]" element="p" />
 
 
+
+
+
+# File: ./align-content.mdx
 
 ---
 title: "Align Content"
@@ -25472,6 +26144,10 @@ Use `content-normal` to pack content items in their default position as if no `a
 
 
 
+
+
+# File: ./text-underline-offset.mdx
+
 ---
 title: "Text Underline Offset"
 description: "Utilities for controlling the offset of a text underline."
@@ -25561,6 +26237,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="text-underline-offset" featuredClass="underline-offset-[3px]" element="p" />
 
 
+
+
+
+# File: ./height.mdx
 
 ---
 title: "Height"
@@ -25749,6 +26429,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="height" featuredClass="h-[32rem]" />
 
 
+
+
+
+# File: ./scroll-margin.mdx
 
 ---
 title: "Scroll Margin"
@@ -25956,6 +26640,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./scroll-padding.mdx
+
 ---
 title: "Scroll Padding"
 description: "Utilities for controlling an element's scroll offset within a snap container."
@@ -26138,6 +26826,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./background-blend-mode.mdx
+
 ---
 title: "Background Blend Mode"
 description: "Utilities for controlling how an element's background image should blend with its background color."
@@ -26174,6 +26866,10 @@ Use the `bg-blend-*` utilities to control how an element's background image(s) s
 <BreakpointsAndMediaQueries defaultClass="bg-blend-lighten" featuredClass="bg-blend-darken" />
 
 
+
+
+
+# File: ./accent-color.mdx
 
 ---
 title: "Accent Color"
@@ -26273,6 +26969,10 @@ Note, while it's possible to set an accent color using the `hover` and `active` 
 </ArbitraryValues>
 
 
+
+
+
+# File: ./backdrop-invert.mdx
 
 ---
 title: "Backdrop Invert"
@@ -26376,6 +27076,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="backdrop-invert" featuredClass="backdrop-invert-[.25]" />
 
 
+
+
+
+# File: ./presets.mdx
 
 ---
 title: Presets
@@ -26644,6 +27348,10 @@ module.exports = {
 
 
 
+
+
+# File: ./min-width.mdx
+
 ---
 title: "Min-Width"
 description: "Utilities for setting the minimum width of an element."
@@ -26741,6 +27449,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="min-width" featuredClass="min-w-[220px]" />
 
 
+
+
+
+# File: ./border-radius.mdx
 
 ---
 title: "Border Radius"
@@ -26973,6 +27685,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./flex-grow.mdx
+
 ---
 title: "Flex Grow"
 description: "Utilities for controlling how flex items grow."
@@ -27094,6 +27810,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="flex-grow" featuredClass="grow-[2]" />
 
 
+
+
+
+# File: ./reusing-styles.mdx
 
 ---
 title: Reusing Styles
@@ -27424,6 +28144,10 @@ If you're going to use `@apply`, use it for very small, highly reusable things l
 
 
 
+
+
+# File: ./border-color.mdx
+
 ---
 title: "Border Color"
 description: "Utilities for controlling the color of an element's borders."
@@ -27641,6 +28365,10 @@ For more control, you can also use the [LTR and RTL modifiers](/docs/hover-focus
 
 
 
+
+
+# File: ./line-clamp.mdx
+
 ---
 title: "Line Clamp"
 description: "Utilities for clamping text to a specific number of lines."
@@ -27735,6 +28463,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./font-style.mdx
+
 ---
 title: "Font Style"
 description: "Utilities for controlling the style of text."
@@ -27787,6 +28519,10 @@ The `italic` utility can be used to make text italic. Likewise, the `not-italic`
 <BreakpointsAndMediaQueries defaultClass="italic" featuredClass="not-italic" element="p" />
 
 
+
+
+
+# File: ./text-decoration-style.mdx
 
 ---
 title: "Text Decoration Style"
@@ -27852,6 +28588,10 @@ Use the `decoration-*` utilities to change the style of an element's [text decor
 <BreakpointsAndMediaQueries defaultClass="underline" featuredClass="decoration-dashed" element="p" />
 
 
+
+
+
+# File: ./divide-width.mdx
 
 ---
 title: "Divide Width"
@@ -28008,6 +28748,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./outline-style.mdx
+
 ---
 title: "Outline Style"
 description: "Utilities for controlling the style of an element's outline."
@@ -28092,6 +28836,10 @@ The `outline-none` utility is implemented using a transparent outline under the 
 <BreakpointsAndMediaQueries defaultClass="outline" featuredClass="outline-dashed" />
 
 
+
+
+
+# File: ./object-fit.mdx
 
 ---
 title: "Object Fit"
@@ -28215,6 +28963,10 @@ Use the `object-none` utility to display an element's content at its original si
 
 
 
+
+
+# File: ./text-wrap.mdx
+
 ---
 title: "Text Wrap"
 description: "Utilities for controlling how text wraps within an element."
@@ -28321,6 +29073,10 @@ Use `text-pretty` to prevent orphans (a single word on its own line) at the end 
 <BreakpointsAndMediaQueries defaultClass="text-wrap" featuredClass="text-balance" element="h1" />
 
 
+
+
+
+# File: ./display.mdx
 
 ---
 title: "Display"
@@ -28633,6 +29389,10 @@ Use the `hidden` utility to set an element to `display: none` and remove it from
 
 
 
+
+
+# File: ./place-content.mdx
+
 ---
 title: "Place Content"
 description: "Utilities for controlling how content is justified and aligned at the same time."
@@ -28828,6 +29588,10 @@ Use `place-content-stretch` to stretch grid items along their grid areas on the 
 <BreakpointsAndMediaQueries defaultClass="grid place-content-start" featuredClass="place-content-center" />
 
 
+
+
+
+# File: ./content-configuration.mdx
 
 ---
 title: Content Configuration
@@ -29481,6 +30245,10 @@ Either way, please be sure to [check for an existing issue](https://github.com/t
 
 
 
+
+
+# File: ./background-attachment.mdx
+
 ---
 title: "Background Attachment"
 description: "Utilities for controlling how a background image behaves when scrolling."
@@ -29576,6 +30344,10 @@ Use `bg-scroll` to scroll the background image with the viewport, but not with t
 <BreakpointsAndMediaQueries defaultClass="bg-local" featuredClass="bg-fixed" />
 
 
+
+
+
+# File: ./hover-focus-and-other-states.mdx
 
 ---
 title: Handling Hover, Focus, and Other States
@@ -31839,6 +32611,10 @@ Style an input when it is read-only using the `read-only` modifier:
 
 
 
+
+
+# File: ./brightness.mdx
+
 ---
 title: "Brightness"
 description: "Utilities for applying brightness filters to an element."
@@ -31960,6 +32736,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./text-decoration.mdx
+
 ---
 title: "Text Decoration"
 description: "Utilities for controlling the decoration of text."
@@ -32039,6 +32819,10 @@ Control how text is decorated with the `underline`, `no-underline`, and `line-th
 
 
 
+
+
+# File: ./background-repeat.mdx
+
 ---
 title: "Background Repeat"
 description: "Utilities for controlling the repetition of an element's background image."
@@ -32117,6 +32901,10 @@ Use `bg-repeat-y` to repeat the background image only vertically.
 <BreakpointsAndMediaQueries defaultClass="bg-repeat" featuredClass="bg-repeat-x" />
 
 
+
+
+
+# File: ./gap.mdx
 
 ---
 title: "Gap"
@@ -32237,6 +33025,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 <ArbitraryValues property="gap" defaultClass="grid" featuredClass="gap-[2.75rem]" />
 
 
+
+
+
+# File: ./top-right-bottom-left.mdx
 
 ---
 title: "Top / Right / Bottom / Left"
@@ -32450,6 +33242,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./fill.mdx
+
 ---
 title: "Fill"
 description: "Utilities for styling the fill of SVG elements."
@@ -32508,6 +33304,10 @@ This can be useful for styling icon sets like [Heroicons](https://heroicons.com)
 <ArbitraryValues property="fill" featuredClass="fill-[#243c5a]" element="svg" />
 
 
+
+
+
+# File: ./gradient-color-stops.mdx
 
 ---
 title: "Gradient Color Stops"
@@ -32762,6 +33562,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./caption-side.mdx
+
 ---
 title: "Caption Side"
 description: "Utilities for controlling the alignment of a caption element inside of a table."
@@ -32913,6 +33717,10 @@ Use `caption-bottom` to position a caption element at the bottom of a table.
 
 
 
+
+
+# File: ./overscroll-behavior.mdx
+
 ---
 title: "Overscroll Behavior"
 description: "Utilities for controlling how the browser behaves when reaching the boundary of a scrolling area."
@@ -32987,6 +33795,10 @@ Use the `overscroll-auto` utility to make it possible for the user to continue s
 <BreakpointsAndMediaQueries defaultClass="overscroll-auto" featuredClass="overscroll-contain" element="html" />
 
 
+
+
+
+# File: ./word-break.mdx
 
 ---
 title: "Word Break"
@@ -33085,6 +33897,10 @@ Use `break-keep` to prevent line breaks from being applied to Chinese/Japanese/K
 
 
 
+
+
+# File: ./optimizing-for-production.mdx
+
 ---
 title: Optimizing for Production
 description: Getting the most performance out of Tailwind CSS projects.
@@ -33124,6 +33940,10 @@ module.exports = {
 If you're using a framework, check the documentation as this is often handled for you in production automatically and you don't even need to configure it.
 
 
+
+
+
+# File: ./dark-mode.mdx
 
 ---
 title: Dark Mode
@@ -33315,6 +34135,10 @@ module.exports = {
 
 
 
+
+
+# File: ./tailwind-cli.mdx
+
 ---
 title: Tailwind CLI
 description: Understanding which browsers Tailwind supports and how to manage vendor prefixes.
@@ -33325,6 +34149,10 @@ Notes:
 - Using `npm-run-all` or `concurrently` to run alongside other build processes
 
 
+
+
+
+# File: ./backdrop-saturate.mdx
 
 ---
 title: "Backdrop Saturate"
@@ -33439,6 +34267,10 @@ Learn more about customizing the default theme in the [theme customization](/doc
 
 
 
+
+
+# File: ./background-origin.mdx
+
 ---
 title: "Background Origin"
 description: "Utilities for controlling how an element's background is positioned relative to borders, padding, and content."
@@ -33495,6 +34327,10 @@ Use `bg-origin-border`, `bg-origin-padding`, and `bg-origin-content` to control 
 
 
 
+
+
+# File: ./browser-support.mdx
+
 ---
 title: Browser Support
 description: Understanding which browsers Tailwind supports and how to manage vendor prefixes.
@@ -33545,6 +34381,10 @@ module.exports = {
 To learn more about specifying which browsers you need to support, check out [Browserslist](https://github.com/browserslist/browserslist) which is the standard way to define target browsers in front-end tooling.
 
 
+
+
+
+# File: ./backdrop-hue-rotate.mdx
 
 ---
 title: "Backdrop Hue Rotate"
